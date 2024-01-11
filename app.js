@@ -143,7 +143,7 @@ function exibeErro(chute) {                                                     
             maiorNumero = chute;
             maiorMenor = "menor";
         }
-        let mensagemErrouONumero = 'Você errou! O número é '+maiorMenor+'!'        // Amazena mensagem
+        let mensagemErrouONumero = 'Você errou! O número é '+maiorMenor+'!'             // Amazena mensagem
         falarTexto("Você errou! O número e" + maiorMenor);
         campoChute.placeholder = mensagemErrouONumero;                                  // Exibir que errou e informa se o número é maior ou menor
         campoChute.value = mensagemErrouONumero;                                        // Exibir que errou e informa se o número é maior ou menor
