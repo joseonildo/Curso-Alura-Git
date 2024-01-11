@@ -166,5 +166,5 @@ function chutar() {                                                             
     }
 }
 
-falarTexto('Bem vindo ao Número Secreto');                                                 // Dá as boas vindas ao jogo em voz
+falarTexto('Bem vindo ao Número Secreto');                                              // Dá as boas vindas ao jogo em voz
 novoJogo();                                                                             // Chama a função e Inicia o jogo
