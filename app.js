@@ -102,7 +102,7 @@ function verificaJaChutado(chute){                                              
 }
 
 function exibeJaChutado(chute){                                                         // Função para exibir se o número já foi chutado    
-    let mensagemJachutado = 'Número '+chute+' já chutado! Tente outro!'           // Amazena mensagem já chutado
+    let mensagemJachutado = 'Número '+chute+' já chutado! Tente outro!'                 // Amazena mensagem já chutado
     campoChute.placeholder = mensagemJachutado;                                         // Exibe que digitou um número já chutado 
     campoChute.value = mensagemJachutado;                                               // Exibe que digitou um número já chutado
     falarTexto('Esse número já foi chutado! Tente outro!');                                               
