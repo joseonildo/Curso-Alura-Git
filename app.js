@@ -41,7 +41,7 @@ function falarTexto(texto){                                                     
     }
 }
 
-/* function novoJogo() {                                                                   // Função inicia o jogo ou um Novo Jogo
+function novoJogo() {                                                                   // Função inicia o jogo ou um Novo Jogo
     maiorNumero = 100;                                                                  // Define a quantidade maxima de números para 100
     menorNumero = 0;
     tentativas = '';                                                                    // Define a quantidade minima de números para 0
@@ -51,7 +51,7 @@ function falarTexto(texto){                                                     
     campoChute.placeholder = '^ Escolha a dificuldade acima ^';                         // Exibe orientação inicial (ecolher a dificuldade) 
     falarTexto('Escolha a dificuldade e clique em OK');                                 // Fala para escolher a dificuldade do jogo e clicar em OK
     atualizaTela(false,true,true);                                                      // Chama a função para atualizar os textos e botões na tela
-} */
+}
 
 function selecionarDificuldade(){                                                       // Função para selecionar o nível de Dificuldade:
     let dificuldade = listaDificuldade.value;
